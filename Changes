@@ -1,5 +1,11 @@
 2007-12-09  Takeru INOUE  <takeru.inoue _ gmail.com>
 
+        * release 0.0.3:
+	* Build.PL
+	- fix dependency typo
+
+2007-12-09  Takeru INOUE  <takeru.inoue _ gmail.com>
+
         * release 0.0.2:
 	* Build.PL
 	- fix dependency
