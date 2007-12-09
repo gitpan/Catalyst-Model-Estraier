@@ -14,6 +14,11 @@ my $builder = Module::Build->new(
 	'FindBin' => 0,
 	'Search::Estraier' => 0,
     },
+    build_requires => {
+        'Test::More' => 0,
+	'Test/Perl/Critic' => 0,
+    },
+    recommends => {},
     create_makefile_pl => 'traditional',
     add_to_cleanup      => [ 'Catalyst-Model-Estraier-*' ],
 );

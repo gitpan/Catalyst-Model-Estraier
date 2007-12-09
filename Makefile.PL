@@ -12,6 +12,7 @@ WriteMakefile
                            'Catalyst::Helper' => 0,
                            'FindBin' => 0,
                            'version' => 0,
+                           'Test/Perl/Critic' => 0,
                            'Search::Estraier' => 0
                          }
         )

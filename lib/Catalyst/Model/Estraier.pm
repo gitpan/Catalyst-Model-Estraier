@@ -3,7 +3,7 @@ package Catalyst::Model::Estraier;
 use warnings;
 use strict;
 
-use version; our $VERSION = qv('0.0.1');
+use version; our $VERSION = qv('0.0.2');
 
 use Search::Estraier;
 
