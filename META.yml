@@ -1,6 +1,6 @@
 ---
 name: Catalyst-Model-Estraier
-version: 0.0.3
+version: 0.0.4
 author:
   - 'Takeru INOUE <takeru.inoue _ gmail.com>'
 abstract: Hyper Estraier model class for Catalyst
@@ -21,7 +21,7 @@ provides:
     file: lib/Catalyst/Helper/Model/Estraier.pm
   Catalyst::Model::Estraier:
     file: lib/Catalyst/Model/Estraier.pm
-    version: 0.0.3
+    version: 0.0.4
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

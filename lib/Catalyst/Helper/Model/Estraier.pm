@@ -5,7 +5,7 @@ use warnings;
 
 sub mk_compclass {
     my($self, $helper, $url, $user, $passwd) = @_;
-    $helper->{url}            = $url    || 'http://localhost:1978';
+    $helper->{url}            = $url    || 'http://localhost:1978/node/test';
     $helper->{user}           = $user   || '';
     $helper->{passwd}         = $passwd || '';
     $helper->{croak_on_error} = 1;
@@ -21,7 +21,7 @@ Catalyst::Helper::Model::Estraier - Helper for Hyper Estraier models
 =head1 SYNOPSIS
 
     $ perl script/myapp_create.pl model Search Estraier \
-      http://localhost:1978 admin admin
+      http://localhost:1978/node/test admin admin
 
 =head1 DESCRIPTION
 
