@@ -1,6 +1,6 @@
 ---
 name: Catalyst-Model-Estraier
-version: 0.0.4
+version: 0.0.5
 author:
   - 'Takeru INOUE <takeru.inoue _ gmail.com>'
 abstract: Hyper Estraier model class for Catalyst
@@ -8,7 +8,7 @@ license: perl
 resources:
   license: http://dev.perl.org/licenses/
 requires:
-  Catalyst::Helper: 0
+  Catalyst::Devel: 0
   FindBin: 0
   Search::Estraier: 0
   Test::More: 0
@@ -21,7 +21,7 @@ provides:
     file: lib/Catalyst/Helper/Model/Estraier.pm
   Catalyst::Model::Estraier:
     file: lib/Catalyst/Model/Estraier.pm
-    version: 0.0.4
+    version: 0.0.5
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

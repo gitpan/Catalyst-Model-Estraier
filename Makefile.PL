@@ -10,9 +10,9 @@ WriteMakefile
           'PREREQ_PM' => {
                            'Test::Perl::Critic' => 0,
                            'Test::More' => 0,
-                           'Catalyst::Helper' => 0,
                            'FindBin' => 0,
                            'version' => 0,
+                           'Catalyst::Devel' => 0,
                            'Search::Estraier' => 0
                          }
         )

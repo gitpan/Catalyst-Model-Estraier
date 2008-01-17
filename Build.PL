@@ -10,7 +10,7 @@ my $builder = Module::Build->new(
     requires => {
         'Test::More' => 0,
         'version'    => 0,
-        'Catalyst::Helper' => 0,
+        'Catalyst::Devel' => 0,
 	'FindBin' => 0,
 	'Search::Estraier' => 0,
     },
