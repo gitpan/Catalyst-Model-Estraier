@@ -1,28 +1,28 @@
 ---
-name: Catalyst-Model-Estraier
-version: 0.0.5
+abstract: 'Hyper Estraier model class for Catalyst'
 author:
   - 'Takeru INOUE <takeru.inoue _ gmail.com>'
-abstract: Hyper Estraier model class for Catalyst
-license: perl
-resources:
-  license: http://dev.perl.org/licenses/
-requires:
-  Catalyst::Devel: 0
-  FindBin: 0
-  Search::Estraier: 0
-  Test::More: 0
-  version: 0
 build_requires:
   Test::More: 0
-  Test::Perl::Critic: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3607'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Catalyst-Model-Estraier
 provides:
   Catalyst::Helper::Model::Estraier:
     file: lib/Catalyst/Helper/Model/Estraier.pm
   Catalyst::Model::Estraier:
     file: lib/Catalyst/Model/Estraier.pm
-    version: 0.0.5
-generated_by: Module::Build version 0.2808
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+    version: v0.0.6
+requires:
+  Catalyst::Devel: 0
+  FindBin: 0
+  Search::Estraier: 0
+  version: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: v0.0.6
